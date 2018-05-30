@@ -1,0 +1,52 @@
+body{
+    background: #696969;
+    margin: 0;
+    padding: 0;
+}
+
+
+div.center-box{
+    background: white;
+    text-align: center;
+    padding: 30px;
+    border: 3px dotted black;
+    box-shadow: 2px 2px 2px coral;
+    height: auto;
+}
+
+div.text-box{
+    padding: 100px;
+    background: black;
+    color: white;
+    resize: none;
+}
+
+div.flexbox-container{
+    display: flex;
+    align-items: flex-start;
+    height: 300px;
+    flex-direction: column;
+}
+
+
+div.flexbox-boxes{
+    background: white;
+    padding: 10px;
+}
+
+div.item2{
+    background: blue;
+    color: white;
+}
+
+.flexbox-container>*:first-child{
+    align-self: stretch;
+}
+
+.flexbox-container .item2{
+    align-self: flex-end;
+}
+
+.flexbox-container .item4{
+    align-self: center;
+}
