@@ -72,3 +72,12 @@ ul{
 a:hover li{
     background-color: #111;
 }
+
+.change_color{
+    color: white;
+}
+
+strong{
+    color: #000;
+    text-shadow: 2px 2px grey;
+}
