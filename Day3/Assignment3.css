@@ -1,0 +1,39 @@
+body{
+    background: #696969;
+}
+
+#button1{
+    left: 20%;
+    padding: 10px;
+    display: inline-block;
+    position: fixed;
+    border-radius: 7px;
+}
+
+#button2{
+    right: 20%;
+    padding: 10px;
+    display: inline-block;
+    position: fixed;
+    border-radius: 7px;
+}
+
+.make_middle{
+    display: inline-block;
+    margin-top: 20px;
+    position: fixed;
+    top: 20%;
+}
+
+div{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;    
+}
+
+.make_bot{
+    display: inline-block;
+    position: fixed;
+    top: 40%;
+}
