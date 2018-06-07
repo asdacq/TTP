@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+body{
+    background: #696969;
+}
+
+.inputField{
+    margin: 3px;
+}
+
+li{
+    margin-right: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: white;
+}
