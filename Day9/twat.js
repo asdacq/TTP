@@ -51,7 +51,9 @@ function startBot(){
 	})
 }
 
-// Run the bot every 30 minutes
+// Start the bot initally
+startBot();
 
-setInterval(startBot, 1800000 );
+// Run the bot every hour
+setInterval(startBot, 3600000 );
 
