@@ -1,3 +1,4 @@
+<pre>
  id |        name        | lightsaber_color | years_training | tempted_by_dark_side 
 ----+--------------------+------------------+----------------+----------------------
  21 | Nikki Solo         | yellow           |            100 | f
@@ -7,3 +8,4 @@
  18 | Dmitry Calrissian  | blue             |             40 | t
  27 | Daniyal Calrissian | blue             |             30 | t
  23 | Nishad Sideous     | blue             |             26 | f
+ </pre>
