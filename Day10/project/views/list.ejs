@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>List</title>
+    </head>
+
+    <body>
+        <h1>List</h1>
+        <ol>
+            <% groceries.groceries.forEach(function(item){ %>
+            <h2> <%= item.store %></h2>
+            <% item.list.forEach(function(listItem){ %>
+            <li> <%= listItem %></li>
+            <% }); %>
+            <% }); %>
+        </ol>
+    </body>
+</html>

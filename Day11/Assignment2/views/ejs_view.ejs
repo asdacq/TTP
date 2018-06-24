@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Car List</title>
+    </head>
+
+    <body>
+        <h1>Car List</h1>
+        <ol>
+            <% cars.listOfCars.forEach(function(item){ %>
+            <% var brandString = item.brand; %>
+            <a href = <%=  brandString %> > <h2> <%= item.brand %></h2> </a>
+            <% }); %>
+        </ol>
+    </body>
+    <script type="text/javascript" src="../app.js"></script>
+</html>
+

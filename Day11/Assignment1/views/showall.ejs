@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Person List</title>
+    </head>
+
+    <body>
+        <h1>Person List</h1>
+        <ol>
+        <% for(var i = 0; i < person.Person.length; i++){ %>
+            <h3><%= person.Person[i].First  + " " +person.Person[i].Last %><h3>
+            <br />
+        <% } %>
+        </ol>
+    </body>
+</html>
+
+

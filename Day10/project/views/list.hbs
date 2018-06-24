@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<h1>List</h1>
+{{#each groceries.groceries}}
+	<h2>{{this.store}}</h2>
+		<ol>
+			{{#each this.list}}
+			<li>{{ this }}</li>	
+			{{/each}}
+		</ol>
+	{{/each}}
+</html>

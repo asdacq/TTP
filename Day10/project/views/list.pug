@@ -1,0 +1,9 @@
+html
+	body
+		h1 List
+			each object in groceries
+				each arrayIndex in object
+					h1= arrayIndex.store
+					ol
+						each storeIndex in arrayIndex.list
+							li= storeIndex	
